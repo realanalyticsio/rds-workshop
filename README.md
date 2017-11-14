@@ -2,4 +2,4 @@
 
 Course and lab materials
 
-Please direct any questions regarding the workshop to Najib Ninaba <najib.ninaba@nus.edu.sg>.
+Please direct any questions regarding the workshop to Najib Ninaba at najib.ninaba@nus.edu.sg.
