@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
   config.vm.box = "rds"
-  config.vm.provision :shell, path: "bootstrap.sh"
+  #config.vm.provision :shell, privileged: false, binary:true, path: "bootstrap.sh"
   config.vm.network "forwarded_port", guest: 80, host: 8080
   config.vm.network "forwarded_port", guest: 8000, host: 8000
   config.vm.network "forwarded_port", guest: 8888, host: 8888
